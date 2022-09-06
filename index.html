@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="style/all.min.css">
+
+<link rel="stylesheet" href="style/fontawesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Slab&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=The+Nautigal:wght@400;700&display=swap');
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="srcipt.js"></script>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo-img.png"></a>
+        <div id="menu-bar" class="fas fa-hamburger">
+
+        </div>
+        <nav class=" navbar ">
+            <ul>
+                <li><a href="#home ">Home</a></li>
+                <li><a href="#about ">About</a></li>
+                <li><a href="#menu ">Menu</a></li>
+                <li><a href="#popular ">Popular</a></li>
+                <li>
+                    <a href="#gallery ">Gallery</a>
+                </li>
+                <li><a href="#order ">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>We believe good food offer great smile</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit odit harum quam a quae deleniti dolor iure obcaecati animi dolorem voluptatem id eum, laboriosam mollitia velit, vel adipisci facere tempore!</p>
+            <a href="#"><button class="btn">Get Started</button></a>
+        </div>
+        <div class="image">
+            <img src="home-img.png">
+        </div>
+    </section>
+
+    <!--About section-->
+    <section class="about" id="about">
+
+        <div class="image"></div>
+        <div class="content">
+            <h3>a word about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sequi natus qui placeat totam, fugit nobis non illo laboriosam asperiores saepe quaerat laborum quam porro, rerum mollitia quibusdam facilis dicta.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam mollitia quaerat earum, id enim blanditiis, recusandae veniam fugit voluptatem dolor iure cupiditate saepe ipsum cumque corporis. Perspiciatis at numquam expedita.</p>
+            <a href="#"><button class="btn">Learn more</button></a>
+        </div>
+    </section>
+    <!--Menu-->
+    <section id="menu" class="menu">
+        <h1 class="heading">our delicious <span>menu</span></h1>
+        <ul class="list">
+            <li class="btn break" data-source="menu1.jpg">breakfast</li>
+            <li class="btn active lunch" data-source="menu2.jpg">lunch</li>
+            <li class="btn dinner" data-source="menu3.jpg">dinner</li>
+            <li class="btn dessert" data-source="menu4.jpg">dessert</li>
+        </ul>
+        <div class="row">
+            <div class="image">
+                <img src="menu1.jpg" id="menu-img" class="menu-1">
+                <img src="menu2.jpg" id="menu-img" class="menu-2">
+                <img src="menu3.jpg" id="menu-img" class="menu-3">
+                <img src="menu4.jpg" id="menu-img" class="menu-4">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3> <span>01</span>we serve the best food in the country</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius dignissimos.</p>
+                </div>
+                <div class="info">
+                    <h3> <span>02</span>we serve the best food in the country</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius dignissimos.</p>
+                </div>
+                <div class="info">
+                    <h3> <span>03</span>we serve the best food in the country</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius dignissimos.</p>
+                </div>
+                <div class="info">
+                    <h3> <span>04</span>we serve the best food in the country</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius dignissimos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Popular-->
+    <section class="popular" id="popular">
+        <h1 class="heading">most <span> popular </span>food</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="product-1.jpg" alt="">
+                <h3>delicius food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">#30.00</div>
+                <a href="#"><button class="btn">add to cart</button></a>
+            </div>
+
+            <div class="box">
+                <img src="product-2.jpg" alt="">
+                <h3>delicius food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">#30.00</div>
+                <a href="#"><button class="btn">add to cart</button></a>
+            </div>
+
+            <div class="box">
+                <img src="product-3.jpg" alt="">
+                <h3>delicius food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">#30.00</div>
+                <a href="#"><button class="btn">add to cart</button></a>
+            </div>
+            <div class="box">
+                <img src="product-4.jpg" alt="">
+                <h3>delicius food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$30.00</div>
+                <a href="#"><button class="btn">add to cart</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!---Gallery-->
+    <section id="gallery" class="gallery">
+        <h1 class="heading"> our food <span>gallery</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img1.jpg" alt="" />
+                <h3>delicious food</h3>
+            </div>
+            <div class="box">
+                <img src="img2.jpg" alt="" />
+                <h3>delicious food</h3>
+            </div>
+            <div class="box">
+                <img src="img3.jpg" alt="" />
+                <h3>delicious food</h3>
+            </div>
+            <div class="box">
+                <img src="img4.jpg" alt="" />
+                <h3>delicious food</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" class="order">
+        <h1 class="heading"> make an <span>order</span></h1>
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="enter your name" class="box">
+                <input type="email" placeholder="enter your email" class="box">
+                <input type="password" placeholder="enter your password" class="box">
+                <input type="number" placeholder="enter your number" class="box">
+                <textarea cols="30" rows="10" class="box address" placeholder="Enter your address"></textarea>
+                <input type="submit" class="btn" value="order now">
+            </form>
+            <div class="image">
+                <img src="form-img.jpg" alt=""> </div>
+        </div>
+    </section>
+    <div class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-map-marker-alt"></i> mumbai, indai 400104 </p>
+                <p> <i class="fas fa-envelope"></i> example@gmail.com </p>
+                <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+                <p> <i class="fas fa-phone"></i> +111-222-333 </p>
+            </div>
+
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">france</a>
+                <a href="#">russia</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links </h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">popular</a>
+                <a href="#">gallery</a>
+                <a href="#">order</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">instagram</a>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit">create by <a href="#">mr. web designer</a> all rights reserved. </h1>
+
+    </div>
+
+
+    <script>
+        $(document).ready(function() {
+
+            $('#menu-bar').click(function() {
+                $(this).toggleClass('fa-times');
+                $('.navbar').toggleClass('nav-toggle');
+            });
+
+            $(window).on('load scroll', function() {
+
+                $('#menu-bar').removeClass('fa-times');
+                $('.navbar').removeClass('nav-toggle');
+
+                $('section').each(function() {
+
+                    let top = $(window).scrollTop();
+                    let height = $(this).height();
+                    let id = $(this).attr('id');
+                    let offset = $(this).offset().top - 200;
+
+                    if (top > offset && top < offset + height) {
+                        $('.navbar ul li a').removeClass('active');
+                        $('.navbar').find(`[href="#${id}"]`).addClass('active');
+                    }
+
+                });
+
+            });
+
+            $('.list .btn').click(function() {
+                $(this).addClass('active').siblings().removeClass('active');
+                let src = $(this).attr('data-src');
+                $('.menu .row .image img').attr('src', src);
+            });
+
+        });
+    </script>
+</body>
+
+</html>
